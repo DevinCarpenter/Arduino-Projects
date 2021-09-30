@@ -21,7 +21,7 @@ void loop(void) {
     Serial.println(tag.getTagType());
     Serial.print("UID: ");Serial.println(tag.getUidString());
 
-    if (tag.hasNdefMessage()) // every tag won't have a message
+    if (tag.hasNdefMessage()) // not every tag will have a message
     {
 
       NdefMessage message = tag.getNdefMessage();

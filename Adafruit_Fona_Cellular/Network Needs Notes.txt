@@ -1,0 +1,48 @@
+
+5/4/2021 Notes:
+
+
++COPS: (1,"AT&T","AT&T","310410",2),,(0,1,2,3,4,5),(0,1,2)
+
+014094001871232
+
+867584030468131
+
+5/5/2021 Notes:
+
+Ublox - chip maker for IoT & Cellular modules
+origingps.com - end-to-end IoT module specialist
+
+Adafruit FONA:
+ - GSM Bands (3G):
+    - Quad-band 850MHz GSM
+    - 900MHz EGSM (EDGE GSM)
+    - 1800MHz DCS
+    - 1900MHz PCs
+ - CDMA bands:
+    - UMTS/HSDPA 850/1900MHz WCDMA + HSDPA
+        (Universal Mobile Telecom. Service - a 3G broadband system)
+        (High-Speed Downlink Packet Access - a packet protocol)
+        (Wideband code-division multiple access - a wideband channel access method)
+
+telna.com - Global network infrastructure provider for cellular connectivity
+ - Services provided for IoT:
+    - IoT/M2M ('B2B consumer' Machine-To-Machine)
+    - Consumer eSIM ('direct to consumer' secure embedded IC SIM; https://www.gsma.com/esim/)
+    - Full network integration MNO/MVNO (Mobile Networ Operator e.g. Verizon, T-Mobile; Mobile Virtual Network Operator e.g. Ting, Walmart mobile)
+    - M2M Hardware (IoT connect)
+ - Provides trial pack:  https://www.telna.com/sim-esim-trial-pack
+
+
+ eSim Reference: https://www.gsma.com/esim/
+ MNO/MVNO Reference: https://www.linkedin.com/pulse/mno-mvno-mvna-mvne-different-types-operators-chris-gomez/
+
+
+Questions:
+1. How can I limit a sim card to use a specific network type (3G,4G,etc)
+2. How can I see the type of network that a cellular module is currently connected with?
+3. How can I connect to a specific network if the sim isn't limited to a 3G network
+
+
+AT needs:
+ - Find 
